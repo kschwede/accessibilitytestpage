@@ -7,7 +7,7 @@ Scope: generated site in `/tmp/accessibilitytestpage_build`, corresponding to th
 ## Summary
 
 - Confirmed local broken links: 16
-- Deployment-path issues on the GitHub Pages project URL: 1 unique target paths
+- Deployment-path issues on the GitHub Pages project URL: 0
 - Confirmed external broken links: 7
 - External links with indeterminate status (for example 403/429): 29
 
@@ -34,11 +34,7 @@ Scope: generated site in `/tmp/accessibilitytestpage_build`, corresponding to th
 
 ## Deployment-Path Issues
 
-These links are emitted as root-absolute paths such as `/assets/...`. Because the site is deployed as a GitHub Pages project under `/accessibilitytestpage/`, these paths resolve outside the project and break on the live site.
-
-| Emitted path | Referenced from | Why it breaks |
-| --- | --- | --- |
-| `/assets/css/site.css` | `index.html`, `index1.html`, `m131113.html`, `m131114.html`, `m1320-006.html`, `m1320-009.html`, `m4800.html`, `m5440_2018.html`, `m5620.html`, `m5750.html`, `m6610.html`, `m661011.html`, `m661014.html`, `m6610_2018.html`, `m6620.html`, `m662012.html`, `m662015.html`, `m662017.html`, `m662019.html`, `m6630.html`, `m663013.html`, `m6630_2020.html`, `m679012.html`, `m787515.html`, `math4800.html`, `movsat.html`, `publications.html` | Root-absolute URL on a project site; expected prefix `/accessibilitytestpage/` or a relative path. |
+No deployment-path issues were found in the generated output after updating the shared stylesheet path for the GitHub Pages project URL.
 
 ## Confirmed External Broken Links
 
