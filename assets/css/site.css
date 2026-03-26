@@ -47,37 +47,6 @@ code {
   padding: 2rem;
 }
 
-.site-header {
-  max-width: 58rem;
-  margin: 0 auto 1.5rem;
-}
-
-.site-kicker {
-  margin: 0 0 0.35rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.site-title {
-  margin: 0;
-  font-size: clamp(2rem, 4vw, 2.9rem);
-  line-height: 1.1;
-  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
-}
-
-.site-title a {
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.site-tagline {
-  margin: 0.5rem 0 0;
-  color: var(--muted);
-  max-width: 42rem;
-}
-
 .content-card {
   max-width: 58rem;
   margin: 0 auto;
