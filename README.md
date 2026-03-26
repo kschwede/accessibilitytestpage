@@ -5,7 +5,6 @@ This repository root now contains the GitHub Pages-ready migration of the legacy
 ## Repository Structure
 
 - `_layouts/default.html`: shared Jekyll page wrapper.
-- `_includes/sidebar.html`: shared sidebar navigation.
 - `assets/css/site.css`: shared stylesheet for the migrated pages.
 - Root `*.html` pages: preserved legacy filenames, now rendered through the shared Jekyll layout.
 - Course directories and downloadable assets: copied over with original filenames wherever practical.

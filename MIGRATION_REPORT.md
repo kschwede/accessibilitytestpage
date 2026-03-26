@@ -5,7 +5,7 @@
 - Imported the legacy site from `oldsite/`, staged it in `newsite/`, and then copied the finalized result into this repository root.
 - Excluded non-site junk files from the migrated copy: `AGENTS.md`, `__MACOSX/`, and `.DS_Store`.
 - Preserved the existing top-level page filenames and downloadable asset filenames wherever practical.
-- Added a light Jekyll layout, shared sidebar include, and shared stylesheet for maintainability on GitHub Pages.
+- Added a light Jekyll layout and shared stylesheet for maintainability on GitHub Pages.
 
 ## Old URL -> New URL Mapping
 
@@ -56,7 +56,6 @@ Added files:
 
 - `_config.yml`
 - `_layouts/default.html`
-- `_includes/sidebar.html`
 - `assets/css/site.css`
 - `README.md`
 - `MIGRATION_REPORT.md`
@@ -85,4 +84,4 @@ Imported intact without intended structural changes:
 
 - The migrated root pages remain plain HTML content with minimal cleanup so they stay easy to hand-maintain.
 - The shared styling is centralized in `assets/css/site.css`.
-- The shared wrapper lives in `_layouts/default.html`, and the sidebar navigation lives in `_includes/sidebar.html`.
+- The shared wrapper lives in `_layouts/default.html`.

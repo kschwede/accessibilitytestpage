@@ -1,7 +1,6 @@
 :root {
   --page-bg: #edf2f5;
   --paper: #ffffff;
-  --sidebar-bg: #f6f9fb;
   --ink: #1f2933;
   --muted: #5c6b78;
   --border: #ccd6de;
@@ -43,19 +42,8 @@ code {
   font-size: 0.95em;
 }
 
-.site-shell {
-  display: grid;
-  grid-template-columns: minmax(16rem, 19rem) minmax(0, 1fr);
-  min-height: 100vh;
-}
-
-.site-sidebar {
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--border);
-  padding: 2rem 1.25rem 2rem 1.5rem;
-}
-
 .site-main {
+  min-height: 100vh;
   padding: 2rem;
 }
 
@@ -159,73 +147,7 @@ code {
   border-left: 4px solid var(--accent);
 }
 
-.sidebar-heading,
-.sidebar-group summary {
-  margin: 0 0 0.7rem;
-  font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.sidebar-block,
-.sidebar-group {
-  margin-bottom: 1.35rem;
-}
-
-.sidebar-group {
-  border-top: 1px solid var(--border);
-  padding-top: 1rem;
-}
-
-.sidebar-group summary {
-  cursor: pointer;
-  list-style: none;
-}
-
-.sidebar-group summary::-webkit-details-marker {
-  display: none;
-}
-
-.sidebar-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.sidebar-links a {
-  display: block;
-  padding: 0.25rem 0.45rem;
-  border-radius: 0.35rem;
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.sidebar-links a:hover,
-.sidebar-links a:focus-visible,
-.sidebar-links a.is-active {
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
-.sidebar-note {
-  color: var(--muted);
-  font-size: 0.94rem;
-}
-
 @media (max-width: 860px) {
-  .site-shell {
-    grid-template-columns: 1fr;
-  }
-
-  .site-sidebar {
-    border-right: 0;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 1.25rem;
-  }
-
   .site-main {
     padding: 1rem;
   }
