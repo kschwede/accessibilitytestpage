@@ -51,9 +51,9 @@ code {
   max-width: 58rem;
   margin: 0 auto;
   padding: 2rem;
-  background: var(--paper);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
+  background: transparent; /* or inherit */
+  border: none;
+  box-shadow: none;
 }
 
 .legacy-content {
